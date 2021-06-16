@@ -1,0 +1,60 @@
+canvas {
+	display: block;
+}
+
+html,
+body {
+    overflow: hidden; 
+	background: #88b04b;
+}
+
+#particles-js {
+    overflow: hidden; 
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: #88b04b;
+}
+
+.box {
+	position: absolute;
+	bottom: 3px;
+	right: 50%;
+	transform: translate(50%, -50%);
+	color: #fff;
+	max-width: 90%;
+	padding: 1em 2em;
+	background: rgba(0, 0, 0, 0.6);
+	text-shadow: 0px 0px 2px #131415;
+	font-family: "Open Sans", sans-serif;
+
+	-webkit-filter: blur(2px);
+	-moz-filter: blur(2px);
+	-o-filter: blur(2px);
+	-ms-filter: blur(2px);
+	filter: blur(2px);
+}
+
+.box:hover {
+	box-shadow: 0 20px 50px rgba(0, 0, 0, 0.9);
+    background: rgba(0, 0, 0, 0.8);
+	filter: none;
+}
+
+h1 {
+	font-size: 2.25em;
+	font-weight: 700;
+	letter-spacing: -1px;
+}
+
+a,
+a:visited {
+	color: #e34234;
+	transition: 0.25s;
+}
+
+a:hover,
+a:focus {
+	color: #ba160c;
+}
+
