@@ -6,10 +6,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Rodrigo Grapeia</title>
   <link rel="icon" href="data:;base64,iVBORw0KGgo=">
-  <script defer src="/__/firebase/8.4.0/firebase-app.js"></script>
-  <script defer src="/__/firebase/8.4.0/firebase-analytics.js"></script>
-  <script defer src="/__/firebase/init.js?useEmulator=true"></script>
   <script src="js/particles.min.js"></script>
+  <link rel="stylesheet" media="screen" href="css/styles.css">
+</head>
+
+<body>
+  <script src="/__/firebase/8.4.0/firebase-app.js"></script>
+  <script src="/__/firebase/8.4.0/firebase-analytics.js"></script>
+  <script src="/__/firebase/init.js?useEmulator=true"></script>
+  <div id="particles-js"></div>
+  <a class="box" href="https://www.linkedin.com/in/grapeia">
+    <img height="30px" src="/images/linkedin.svg">
+  </a>
+
   <script>
     var firebaseConfig = {
       apiKey: "AIzaSyDVUDSO8wqeJMwObxn9RnsUejcFyD1ibo0",
@@ -22,18 +31,7 @@
     };
     firebase.initializeApp(firebaseConfig);
     firebase.analytics();
-  </script>
-  <link rel="stylesheet" media="screen" href="css/styles.css">
-</head>
 
-<body>
-  <div id="particles-js"></div>
-
-  <a class="box" href="https://www.linkedin.com/in/grapeia">
-    <img height="30px" src="/images/linkedin.svg">
-  </a>
-
-  <script>
     particlesJS.load('particles-js', 'js/particles.json');
   </script>
 </body>
